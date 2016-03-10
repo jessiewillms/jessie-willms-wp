@@ -1,0 +1,42 @@
+@media (min-width: $lg) {
+	html {
+	    border: 3px solid yellow;
+	}
+}
+
+@media (max-width: $lg) {
+	html {
+	    border: 3px solid red;
+	}
+}
+
+@media (max-width: $iPad) {
+	html {
+	    border: 3px solid green;
+	}
+}
+
+@media (max-width: $med) {
+	html {
+	    border: 3px solid blue;
+	}
+}
+
+@media (max-width: $sm) {
+	html {
+	    border: 3px solid orange;
+	}
+}
+
+@media (max-width: $biggestPhone) {
+	html {
+	    border: 3px solid turquoise;
+	}
+}
+
+
+@media (max-width: $smallestPhone) {
+	html {
+	    border: 3px solid purple;
+	}
+}

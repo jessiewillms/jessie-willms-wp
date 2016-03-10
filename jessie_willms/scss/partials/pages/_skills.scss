@@ -1,0 +1,24 @@
+.col-4 {
+    @include column(4);
+    border: 2px solid hotpink;
+}
+
+@media (max-width: $med) {
+    
+    .skills-details {
+        @include column(6);
+    }
+    
+}
+
+@media (max-width: $sm) {
+    
+    html {
+        border: 3px solid orange;
+    }
+    
+    .skills-details {
+        @include column(12);
+    }
+
+}

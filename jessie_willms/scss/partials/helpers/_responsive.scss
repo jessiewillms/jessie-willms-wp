@@ -1,0 +1,58 @@
+@import "_grids-templates.scss";
+
+// Specify the number of columns and set column and gutter widths
+$columns: 12;
+$column-width: 60;
+$gutter-width: 20;
+
+// Remove the definition below for a pixel-based layout
+$total-width: 100%;
+
+////////////
+// LAYOUT //
+////////////
+
+// header
+header.top {
+	margin-bottom: 1em;
+}
+
+// main column & sidebar
+.fullwidth {
+	@include column(12);
+	background-color: #eee;
+}
+.maincolumn {
+	@include column(9);
+	border: 2px solid lightblue;
+}
+
+.col-3 {
+	@include column(3);
+	@extend .ease;
+	border: 2px solid yellow;
+}
+// // +1025px
+@media (min-width: $lg) {
+	
+}
+// 1025px
+@media (max-width: $lg) {
+	.col-3 {
+		@include column(4); // makes 3
+	}
+}
+
+// 800px
+@media (max-width: $med) {
+	.col-3 {
+		@include column(6); // makes 2
+	}
+}
+
+// <415px
+@media (max-width: $sm) {
+	.col-3 {
+		@include column(12); // makes 1
+	}
+}

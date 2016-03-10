@@ -1,0 +1,38 @@
+body {
+	font-size:62.5%;
+	font-family: $serif;
+}
+
+
+h1 {
+	font-size: 8em;
+	margin: 0;
+	
+}
+
+.header-inner-wrap {
+	padding: 15em 10em;
+    text-align: center;
+}
+
+p, li {
+	font-size: 1.75em;
+}
+
+@media (min-width: $lg) {
+	h2 {
+		font-size: 5.5em;
+	}
+}
+@media (max-width: $lg) {
+	h2 {
+		font-size: 3em;
+	}
+}
+@media screen and (max-width: $med) {
+	
+}
+
+@media screen and (max-width: $sm) {
+	
+}

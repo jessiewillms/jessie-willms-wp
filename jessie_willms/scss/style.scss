@@ -1,0 +1,23 @@
+@import "partials/base/_reset.scss";
+
+//------------------------------------------------------- helpers ---------------------------------------------------------//
+@import "partials/helpers/_variables.scss";
+@import "partials/helpers/_mixins.scss";
+@import "partials/base/_typography.scss";
+
+@import "partials/base/_mq.scss";
+
+//------------------------------------------------------   partials---------------------------------------------------------//
+@import "partials/helpers/_grids-templates.scss";
+@import "partials/helpers/_responsive.scss";
+
+
+//------------------------------------------------------- components ---------------------------------------------------------//
+@import "partials/components/_main.scss";
+@import "partials/components/_nav.scss";
+
+//------------------------------------------------------- pages ---------------------------------------------------------//
+// @import "partials/pages/_portfolio-item-wrap.scss";
+@import "partials/layout/_item-wrap.scss";
+@import "partials/pages/_about.scss";
+@import "partials/pages/_skills.scss";
